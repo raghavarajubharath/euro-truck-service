@@ -1,0 +1,55 @@
+.cta {
+  background-size: cover;
+  background-position: center;
+  padding: 4.5rem 0;
+  display: flex;
+}
+
+.cta__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cta__card {
+  background: var(--color-white);
+  border-radius: 12px;
+  padding: 3rem;
+  width: 100%;
+  max-width: 488px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.cta__card h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+.cta__card p {
+  color: var(--color-text-body);
+  margin-top: -0.75rem;
+}
+
+.cta__card input {
+  border: none;
+  background: #eeeef7;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.cta__submit {
+  text-align: center;
+  padding: 1.1rem;
+}
+
+@media (max-width: 900px) {
+  .cta__container {
+    justify-content: center;
+  }
+  .cta__card {
+    max-width: 100%;
+  }
+}
